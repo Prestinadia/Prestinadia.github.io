@@ -1,0 +1,117 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8fef9;
+  color: #333;
+}
+
+.hero-box {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden; 
+  min-height: 300px;
+}
+
+.text-overlay {
+  z-index: 2;
+  color: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.hero-box img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.bg-light-green {
+  background-color: #e9f9ef;
+}
+
+.bg-green-overlay {
+  background-image: url('assets/assets/img-banner1.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.bg-green-overlay .overlay {
+  background-color: rgba(0, 128, 0, 0.6);
+}
+
+.bg-green-overlay .z-1 {
+  position: relative;
+  z-index: 10;
+}
+
+.btn-outline-success,
+.btn-success {
+  border-radius: 50px;
+}
+
+footer {
+  font-size: 0.85rem;
+}
+
+.produk-card {
+  border: 1px solid #dee2e6;
+  border-radius: 16px;
+  padding: 25px;
+  background-color: #fff;
+  transition: 0.3s;
+  margin-bottom: 1px;
+}
+
+.produk-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px); /* sedikit mengangkat kartu saat hover */
+}
+
+.produk-card p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.produk-card small {
+  display: block;
+  color: #666;
+}
+
+.banner-container {
+  display: flex;
+  background-color: #f5fff6;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.banner-image {
+  flex: 1;
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+
+.left-banner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+}
+
+.right-banner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+.bg-light-green {
+  background-color: #eafaf1;
+}
